@@ -139,3 +139,12 @@ footer ul {
     font-weight: 300;
 }
 
+@media (max-width: 600px) {
+    .menu-2 {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}

@@ -16,6 +16,8 @@ function startGame(event) {
     var choices = ["rock", "paper", "scissors"];
     var computerChoice = choices[Math.floor(Math.random() * 3)];
 
+    console.log(`choix ordinateur: ${computerChoice}`);
+    
     // Afficher les choix dans la zone "versus"
     versus.style.display = "flex";
     userChoiceDisplay.innerHTML = `<img src="./assets/chifoumi_${userChoice}1.png" alt="${userChoice}">`;
