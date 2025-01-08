@@ -1,0 +1,140 @@
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#f8d3a8, #b283fd);
+}
+
+header {
+    padding: 0;
+    margin-left: 20px;
+}
+
+span {
+    color: white;
+}
+
+/* Menu de navigation 1 */
+
+ul {
+    font-family: "Red Hat Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    list-style: none;
+}
+
+.menu-1 {
+    background-color: rgb(186, 236, 238);
+    height: 50px;
+    align-content: center;
+}
+
+.nav-menu-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+    margin-left: 12px;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+/* Disposition corps du site web */
+h1 {
+    font-family: "Averia Serif Libre", serif;
+}
+
+.body-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-around;
+    align-items: center;
+    width: 950px;
+}
+
+.content {
+ width: 550px;  
+ border: 1px solid rgb(255, 255, 255); 
+ padding: 15px 10px;
+ border-radius: 5px;
+}
+
+h2 {
+    font-family: "Averia Serif Libre", serif;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Red Hat Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0;
+}
+
+p {
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.container-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: fuchsia;
+}
+
+/* Menu de navigation 2 */
+
+.menu-2 {
+    background-color: #e0cdfd;
+    border-radius: 10px;
+    width:  300px;
+}
+
+.menu-2 ul {
+    padding: 0;
+}
+
+.nav-menu-2 li:not(:last-child){
+    border-bottom:1px solid #f8d3a8;
+}
+
+.nav-menu-2 li {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.623));
+    padding: 10px;
+}
+
+/* Menu de navigation 3 */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    font-weight: 300;
+}
+
