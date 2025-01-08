@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.choice {
+    display: flex;
+}
+
+.choice img {
+    cursor: pointer;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.versus {
+    display: none;
+    margin: 20px;
+    text-align: center;
+}
+
+.choice-display {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.choice-display img {
+    width: 100px;
+    height: 100px;
+}
+
+.score h3 {
+    margin: 0 20px;
+}
